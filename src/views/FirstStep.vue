@@ -68,7 +68,7 @@
 				width: 100%;
 				height: 4.5rem;
 				/*line-height: 4.5rem;*/
-				font-size: 1.7rem;
+				font-size: 1.4rem;
 				border: none;
 				padding: 1rem 2rem;
 				background-color: #f5f5f5;
@@ -87,7 +87,7 @@
 				border-radius: 5rem;
 				text-align: center;
 				color: #fff;
-				font-size: 1.7rem;
+				font-size: 1.4rem;
 				background-color: #2979ff;
 			}
 		}
