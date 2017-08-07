@@ -25,7 +25,7 @@
 				<img src="../assets/imgbg.png" class="thumbnail-img" :style="{'background-image': 'url(' + id_card_negative + ')'}">
 			</div>
 		</div>
-		<router-link to="" class="next-btn">下一步</router-link>
+		<router-link to="secondstep" class="next-btn">下一步</router-link>
 		<router-link to="/" class="prev-btn">上一步</router-link>
 	</div>
 </template>

@@ -5,6 +5,8 @@ const FirstStep = resolve => require(['@/views/FirstStep'], resolve)
 
 const UploadIDCard = resolve => require(['@/views/UploadIDCard'], resolve)
 
+const SecondStep = resolve => require(['@/views/SecondStep'], resolve)
+
 Vue.use(Router)
 
 export default new Router({
@@ -18,6 +20,11 @@ export default new Router({
 			path: '/idcard',
 			name: 'UploadIDCard',
 			component: UploadIDCard
+		},
+		{
+			path: '/secondstep',
+			name: 'SecondStep',
+			component: SecondStep
 		}
 	]
 })

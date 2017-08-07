@@ -68,26 +68,51 @@ export default {
 		background-image: url("./assets/icons/add.svg");
 	}
 
+	.tip {
+		width: 22rem;
+		height: 2rem;
+		line-height: 2rem;
+		margin: 1rem auto;
+		&:after {
+			display: table;
+			content: ' ';
+			clear: both;
+		}
+		img {
+			width: 2rem;
+			height: 2rem;
+			float: left;
+		}
+		span {
+			height: 2rem;
+			line-height: 2rem;
+			font-size: 1.6rem;
+			color: #555;
+			float: left;
+			margin-left: 2rem;
+		}
+	}
+
 	.next-btn {
 		position: absolute;
 		left: 50%;
-		bottom: 10%;
+		bottom: 9%;
 		margin-left: -10rem;
 		background: #2979ff;
 		border-radius: 5rem;
 		width: 20rem;
-		height: 5.2rem;
-		line-height: 5.2rem;
+		height: 5rem;
+		line-height: 5rem;
 		text-align: center;
-		font-size: 2.2rem;
+		font-size: 1.8rem;
 		color: #fff;
 	}
 
 	.prev-btn {
 		position: absolute;
-		right: 5%;
-		bottom: 11.5%;
-		font-size: 1.6rem;
+		right: 8%;
+		bottom: 10.5%;
+		font-size: 1.2rem;
 		padding: .5rem 0;
 		color: #555;
 		border-bottom: .2rem solid #2979ff;
