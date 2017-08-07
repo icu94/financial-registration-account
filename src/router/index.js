@@ -3,6 +3,8 @@ import Router from 'vue-router'
 
 const FirstStep = resolve => require(['@/views/FirstStep'], resolve)
 
+const UploadIDCard = resolve => require(['@/views/UploadIDCard'], resolve)
+
 Vue.use(Router)
 
 export default new Router({
@@ -11,6 +13,11 @@ export default new Router({
 			path: '/',
 			name: 'FirstStep',
 			component: FirstStep
+		},
+		{
+			path: '/idcard',
+			name: 'UploadIDCard',
+			component: UploadIDCard
 		}
 	]
 })

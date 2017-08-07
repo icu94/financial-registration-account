@@ -1,5 +1,6 @@
 <template>
 	<div class="pages">
+		<img src="../assets/security.png">
 		<div class="title">HELLO!</div>
 		<div class="description">敬爱的用户您好！请根据提示完成注册流程，审核通过后我们将以短信的形式将用户名和密码发送至您的手机，请注意查收！</div>
 		<div class="form-group">
@@ -17,7 +18,7 @@
 				<input type="number" placeholder="身份证号码" v-model="id_number">
 			</div>
 		</div>
-		<router-link to="" class="next-btn">下一步</router-link>
+		<router-link to="idcard" class="next-btn">下一步</router-link>
 	</div>
 </template>
 
