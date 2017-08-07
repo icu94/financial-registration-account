@@ -17,7 +17,7 @@
 				<input type="number" placeholder="身份证号码" v-model="id_number">
 			</div>
 		</div>
-		<div class="next-btn">下一步</div>
+		<router-link to="" class="next-btn">下一步</router-link>
 	</div>
 </template>
 

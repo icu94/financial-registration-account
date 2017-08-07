@@ -32,6 +32,12 @@ export default {
 		position: relative;
 	}
 
+	a {
+		color: inherit;
+		display: block;
+		text-decoration: none;
+	}
+
 	#app {
 		height: 100%;
 		background-image: url("./assets/bg.png");
