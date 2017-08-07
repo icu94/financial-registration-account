@@ -51,14 +51,17 @@
 			<img src="../assets/agreed.png">
 			<span>我已阅读并同意以上服务</span>
 		</div>
-		<router-link to="" class="next-btn">下一步</router-link>
+		<router-link to="thirdstep" class="next-btn">下一步</router-link>
 		<router-link to="idcard" class="prev-btn">上一步</router-link>
 	</div>
 </template>
 
 <script>
 	export default {
-	    name: 'SecondStep'
+	    name: 'SecondStep',
+		mounted() {
+			document.title = '开户注册'
+		}
 	}
 </script>
 

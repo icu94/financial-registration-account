@@ -32,6 +32,9 @@
 				name: '',
 				id_number: ''
 			}
+		},
+		mounted() {
+	        document.title = '开户注册'
 		}
 	}
 </script>

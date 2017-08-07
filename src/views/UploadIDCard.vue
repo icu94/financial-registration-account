@@ -25,7 +25,7 @@
 				<img src="../assets/imgbg.png" class="thumbnail-img" :style="{'background-image': 'url(' + id_card_negative + ')'}">
 			</div>
 		</div>
-		<router-link to="secondstep" class="next-btn">下一步</router-link>
+		<router-link to="bank" class="next-btn">下一步</router-link>
 		<router-link to="/" class="prev-btn">上一步</router-link>
 	</div>
 </template>
@@ -38,6 +38,9 @@
 	            id_card_positive: '',
 				id_card_negative: ''
 			}
+		},
+		mounted() {
+			document.title = '上传身份证'
 		},
 		methods: {
 	        cardPositiveChange(e) {
@@ -116,7 +119,9 @@
 				color: #b8c2c7;
 				position: absolute;
 				top: 55%;
-				left: 22%;
+				left: 0;
+				width: 100%;
+				text-align: center;
 			}
 			.iadd {
 				position: absolute;
