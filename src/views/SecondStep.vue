@@ -69,7 +69,7 @@
 	.content {
 		width: 100%;
 		padding: 2rem;
-		max-height: 38rem;
+		height: 38rem;
 		overflow: scroll;
 		.title {
 			font-size: 2.5rem;
