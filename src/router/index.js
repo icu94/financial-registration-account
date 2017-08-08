@@ -21,6 +21,8 @@ const SeventhStep = resolve => require(['@/views/SeventhStep'], resolve)
 
 const FinishStep = resolve => require(['@/views/FinishStep'], resolve)
 
+const LastStep = resolve => require(['@/views/LastStep'], resolve)
+
 Vue.use(Router)
 
 export default new Router({
@@ -74,6 +76,11 @@ export default new Router({
 			path: '/finish',
 			name: 'FinishStep',
 			component: FinishStep
+		},
+		{
+			path: '/last',
+			name: 'LastStep',
+			component: LastStep
 		}
 	]
 })

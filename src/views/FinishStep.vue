@@ -9,7 +9,7 @@
 			<img src="../assets/agreed.png">
 			<span>我已阅读并同意以上服务</span>
 		</div>
-		<router-link to="laststep" class="next-btn">确认注册</router-link>
+		<router-link to="last" class="next-btn">确认注册</router-link>
 		<router-link to="seventhstep" class="prev-btn">上一步</router-link>
 	</div>
 </template>
