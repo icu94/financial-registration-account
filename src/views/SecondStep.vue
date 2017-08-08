@@ -52,7 +52,7 @@
 			<span>我已阅读并同意以上服务</span>
 		</div>
 		<router-link to="thirdstep" class="next-btn">下一步</router-link>
-		<router-link to="idcard" class="prev-btn">上一步</router-link>
+		<router-link to="bank" class="prev-btn">上一步</router-link>
 	</div>
 </template>
 
