@@ -9,6 +9,8 @@ const UploadBank = resolve => require(['@/views/UploadBank'], resolve)
 
 const SecondStep = resolve => require(['@/views/SecondStep'], resolve)
 
+const ThirdStep = resolve => require(['@/views/ThirdStep'], resolve)
+
 Vue.use(Router)
 
 export default new Router({
@@ -32,6 +34,11 @@ export default new Router({
 			path: '/secondstep',
 			name: 'SecondStep',
 			component: SecondStep
+		},
+		{
+			path: '/thirdstep',
+			name: 'ThirdStep',
+			component: ThirdStep
 		}
 	]
 })
