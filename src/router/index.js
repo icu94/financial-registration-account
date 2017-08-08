@@ -11,6 +11,8 @@ const SecondStep = resolve => require(['@/views/SecondStep'], resolve)
 
 const ThirdStep = resolve => require(['@/views/ThirdStep'], resolve)
 
+const FourthStep = resolve => require(['@/views/FourthStep'], resolve)
+
 Vue.use(Router)
 
 export default new Router({
@@ -39,6 +41,11 @@ export default new Router({
 			path: '/thirdstep',
 			name: 'ThirdStep',
 			component: ThirdStep
+		},
+		{
+			path: '/fourthstep',
+			name: 'FourthStep',
+			component: FourthStep
 		}
 	]
 })
